@@ -3,7 +3,7 @@
     #banner {
         position: relative;
         background-image: url("images/arbroath-harbour.jpg");
-        height: 280px;
+        height: 20vw;
         text-align: center;
         border: solid 5px black;
         width: 100%;
@@ -13,7 +13,7 @@
 
     #banner-overlay {
         background-color: black;
-        height: 270px;
+        height: 20vw;
         opacity: 0.3;
         width: 100%;
         z-index: 1;
