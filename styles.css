@@ -1,4 +1,17 @@
-﻿
+﻿* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
 
     #banner {
         position: relative;
@@ -32,7 +45,7 @@
         transform: translate(-50%, -50%);
   /*s*/
         font-weight: bold;
-        font-size: 8vw;
+        font-size: 6vw;
         background-color: midnightblue;
         border: solid 1px black;
         border-radius: 50%;
@@ -85,8 +98,33 @@
   font-weight:normal;
   cursor:default;
 }
-    
-   
 
 
+.big {
+    width: 60%;
+}
+
+
+
+.medium {
+    width: 40%;
+}
+
+.small {
+    width: 20%;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    float: left;
+    margin-left: 0.1%;
+}
+
+.right {
+    float: right;
+    margin-left: 1%;
+}
 
